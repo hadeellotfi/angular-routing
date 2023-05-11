@@ -1,27 +1,45 @@
-# FirstApp
+# My Angular Routing App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+This repository contains an Angular application with a routing system that enables navigation between different views.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To get started, clone the repository and install the dependencies by running:
 
-## Code scaffolding
+git clone [https://github.com/hadeellotfi/angular-routing.git](https://github.com/hadeellotfi/angular-routing.git)
+cd my-angular-routing-app
+npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Running the App
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run the app, use the `ng serve` command. The app will be available at `http://localhost:4200/`.
+ng serve
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Routing
 
-## Running end-to-end tests
+The routing configuration for this app can be found in the `app-routing.module.ts` file. This file defines the routes for the app and maps them to their corresponding components.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Components
 
-## Further help
+This app contains the following components:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- `HomeComponent`: The default view that is displayed when the app is loaded.
+- `AboutComponent`: A view that provides information about the app.
+- `ContactComponent`: A view that displays a contact form.
+- `ListComponent`: A view that displays a list of items.
+- `ItemDetailComponent`: A view that displays the details of a specific item.
+
+## Navigation
+
+Navigation between views is handled using the Angular router. To navigate to a specific view, use the navigation links in the header or footer of the app.
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
+
