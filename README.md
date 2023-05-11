@@ -6,7 +6,7 @@ This repository contains an Angular application with a routing system that enabl
 
 To get started, clone the repository and install the dependencies by running:
 
-git clone [https://github.com/hadeellotfi/angular-routing.git](https://github.com/hadeellotfi/angular-routing.git)
+git clone https://github.com/hadeellotfi/angular-routing.git
 cd my-angular-routing-app
 npm install
 
